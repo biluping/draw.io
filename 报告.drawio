@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-10-21T06:26:02.310Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" etag="BItleLhGUAA6fbE9E5ix" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-10-21T09:07:37.360Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" etag="okEsVdh9oOyJ6IMBWw1v" version="24.7.1" type="github">
   <diagram name="第 1 页" id="tN9jCnUPORuDZxZZFhFp">
-    <mxGraphModel dx="1891" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2079" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,20 +32,185 @@
         <mxCell id="d-A-i4SPgL7deVdhDLGZ-8" value="流程定义 code：&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;ApprovalDefinitionTypeEnum.&lt;/span&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;BGSQCK&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-5" y="300" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="d-A-i4SPgL7deVdhDLGZ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d-A-i4SPgL7deVdhDLGZ-9" target="d-A-i4SPgL7deVdhDLGZ-11">
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d-A-i4SPgL7deVdhDLGZ-9" target="d-A-i4SPgL7deVdhDLGZ-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="d-A-i4SPgL7deVdhDLGZ-9" value="通过 code 查询流程定义 id" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-5" y="400" width="270" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="d-A-i4SPgL7deVdhDLGZ-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d-A-i4SPgL7deVdhDLGZ-11" target="d-A-i4SPgL7deVdhDLGZ-14">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d-A-i4SPgL7deVdhDLGZ-11" target="d-A-i4SPgL7deVdhDLGZ-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="650" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="d-A-i4SPgL7deVdhDLGZ-11" value="创建流程：&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(135, 16, 148);&quot;&gt;processEngineService&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;.createInstance(&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255);&quot;&gt;processInstance&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;);&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="377" y="392.5" width="450" height="65" as="geometry" />
+          <mxGeometry x="-95" y="520" width="450" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d-A-i4SPgL7deVdhDLGZ-14" target="d-A-i4SPgL7deVdhDLGZ-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="d-A-i4SPgL7deVdhDLGZ-14" value="根据流程定义配置的节点进行审批" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="480.5" y="510" width="243" height="45" as="geometry" />
+          <mxGeometry x="8.5" y="740" width="243" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d-A-i4SPgL7deVdhDLGZ-17" target="d-A-i4SPgL7deVdhDLGZ-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-17" value="发起人科室主任审核" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="45" y="842.5" width="170" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d-A-i4SPgL7deVdhDLGZ-20" target="d-A-i4SPgL7deVdhDLGZ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-20" value="tbl_report_apply_approval 表增加记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-15" y="630" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d-A-i4SPgL7deVdhDLGZ-23" target="d-A-i4SPgL7deVdhDLGZ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-28" value="根据用户id查询" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d-A-i4SPgL7deVdhDLGZ-24">
+          <mxGeometry x="0.0275" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-23" value="我发起的申请查看" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="440" y="640" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d-A-i4SPgL7deVdhDLGZ-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="865" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-25" value="查看申请科室主任审核" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="687" y="847.5" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d-A-i4SPgL7deVdhDLGZ-30" target="d-A-i4SPgL7deVdhDLGZ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-33" value="用户id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d-A-i4SPgL7deVdhDLGZ-32">
+          <mxGeometry x="-0.0326" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-30" value="流程历史任务 +&amp;nbsp;流程进行中任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="843.75" width="220" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d-A-i4SPgL7deVdhDLGZ-34" target="d-A-i4SPgL7deVdhDLGZ-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="1132.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-56" value="通过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d-A-i4SPgL7deVdhDLGZ-44">
+          <mxGeometry x="-0.2085" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-34" value="业务科主任审核" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="45" y="1042.5" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d-A-i4SPgL7deVdhDLGZ-37" target="d-A-i4SPgL7deVdhDLGZ-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-42" value="用户id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d-A-i4SPgL7deVdhDLGZ-40">
+          <mxGeometry x="0.0379" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-37" value="流程历史任务 +&amp;nbsp;流程进行中任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="1040" width="220" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d-A-i4SPgL7deVdhDLGZ-38" target="d-A-i4SPgL7deVdhDLGZ-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-38" value="查看申请科室主任审核" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="687" y="1045" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d-A-i4SPgL7deVdhDLGZ-47" target="d-A-i4SPgL7deVdhDLGZ-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-50" value="通过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d-A-i4SPgL7deVdhDLGZ-49">
+          <mxGeometry x="-0.2328" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d-A-i4SPgL7deVdhDLGZ-47" target="d-A-i4SPgL7deVdhDLGZ-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="965" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-54" value="不通过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d-A-i4SPgL7deVdhDLGZ-51">
+          <mxGeometry x="-0.2295" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-47" value="审批" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="940" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-53" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="945" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d-A-i4SPgL7deVdhDLGZ-55" target="d-A-i4SPgL7deVdhDLGZ-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d-A-i4SPgL7deVdhDLGZ-55" target="d-A-i4SPgL7deVdhDLGZ-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-67" value="不通过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d-A-i4SPgL7deVdhDLGZ-66">
+          <mxGeometry x="-0.2525" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-55" value="审批" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1160" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d-A-i4SPgL7deVdhDLGZ-60" target="d-A-i4SPgL7deVdhDLGZ-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-60" value="存入&lt;span style=&quot;color: rgb(60, 67, 83); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Tahoma, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans CN&amp;quot;, &amp;quot;Source Han Sans&amp;quot;, &amp;quot;Source Han Serif&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;tbl_report_auther 表&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1270" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-62" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-65" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1167.5" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d-A-i4SPgL7deVdhDLGZ-68" target="d-A-i4SPgL7deVdhDLGZ-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-68" value="报告申请修改流程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="170" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d-A-i4SPgL7deVdhDLGZ-76" target="d-A-i4SPgL7deVdhDLGZ-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-76" value="发起审批" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="280" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d-A-i4SPgL7deVdhDLGZ-78" target="d-A-i4SPgL7deVdhDLGZ-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-78" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: PingFangSC-Regular, &amp;quot;PingFang SC&amp;quot;, sans-serif; font-size: 14px; text-align: left;&quot;&gt;业务科主任&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d-A-i4SPgL7deVdhDLGZ-80" target="d-A-i4SPgL7deVdhDLGZ-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-85" value="查询检项授权签字人，直接往流程进行中的任务中插入对应的任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d-A-i4SPgL7deVdhDLGZ-83">
+          <mxGeometry x="-0.0608" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-80" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: PingFangSC-Regular, &amp;quot;PingFang SC&amp;quot;, sans-serif; font-size: 14px; text-align: left;&quot;&gt;质管科研部主任&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d-A-i4SPgL7deVdhDLGZ-82" target="d-A-i4SPgL7deVdhDLGZ-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-82" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: PingFangSC-Regular, &amp;quot;PingFang SC&amp;quot;, sans-serif; font-size: 14px; text-align: left;&quot;&gt;授权签字人&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d-A-i4SPgL7deVdhDLGZ-87" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: PingFangSC-Regular, &amp;quot;PingFang SC&amp;quot;, sans-serif; font-size: 14px; text-align: left;&quot;&gt;退回至授权签字人审核，复用从业务科主任审核到授权签字人审核的逻辑，并且修改检品状态为 80 修改审核&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="690" width="270" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
